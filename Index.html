@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<title>Birthday Surprise</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div class="slider-container">
+		<div class="slider-wrapper">
+			<img src="img/birthday1.jpg" alt="Birthday Image 1">
+			<img src="img/birthday2.jpg" alt="Birthday Image 2">
+			<img src="img/birthday3.jpg" alt="Birthday Image 3">
+			<img src="img/birthday4.jpg" alt="Birthday Image 4">
+			<img src="img/birthday5.jpg" alt="Birthday Image 5">
+		</div>
+	</div>
+
+	<button id="btn-surprise" onclick="showSurprise()">Click me for a surprise!</button>
+
+	<div id="surprise" class="hidden">
+		<p>Happy Birthday! Here's to another year of happiness, health, and success!</p>
+		<p>Love, your family and friends</p>
+	</div>
+
+	<script src="script.js"></script>
 </body>
 </html>
